@@ -185,35 +185,129 @@ main {
   display:none
 }
 
-@media (max-width: 800px){
-  .player{
+
+@media (max-width: 850px) {
+
+  .player {
+
     padding: 9rem 2rem;
+
   }
+
+
+
   .name {
+
     font-size: 3.5rem;
+
     margin-top: 1rem;
+
   }
-  .current{
+
+
+
+  .current {
+
     border-radius: 15px;
+
     width: 12em;
+
     display: flex;
+
     flex-direction: column;
+
     justify-content: center;
+
     align-items: center;
+
   }
+
+
+
   .btn {
+
     font-size: 1.5rem;
+
     min-width: 8em;
+
     padding: 0.3rem 1rem;
+
     border-radius: 30rem;
+
     font-weight: 900;
+
   }
+
+
+
+  .gif {
+
+    width: 15rem;
+    height: 13rem;
+
+  }
+
 }
-@media (max-width: 550px){
+@media (max-width: 650px) {
+
   .btn {
+
     font-size: 1.2rem;
+
     min-width: 5em;
+
     padding: 0.2rem 0.9rem;
+
     border-radius: 30rem;
+
   }
+
+
+
+  .gif {
+    top:24rem;
+    width: 12rem;
+
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .btn {
+
+    font-size: 1rem;
+
+    min-width: 4em;
+
+    padding: 0.1rem 0.8rem;
+
+    border-radius: 20rem;
+
+  }
+
+
+
+  .gif {
+    top:24rem;
+    width: 12rem;
+
+  }
+
+
+
+  .name {
+
+    font-size: 2rem;
+
+  }
+
+
+
+  .score {
+
+    font-size: 6rem;
+
+  }
+
 }
